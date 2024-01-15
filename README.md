@@ -12,12 +12,13 @@ Introducing FitGuide, a comprehensive Python tool designed to revolutionize your
 To install the Chat App, please follow these steps:
 Clone the repository to your local machine.
 Install the required dependencies by running the following command:
-•	conda create -p myenv_llm python=3.9.4
-•	conda activate myenv_llm /
-•	pip install -r requirements.txt
+- conda create -p myenv_llm python=3.9.4
+- conda activate myenv_llm /
+- pip install -r requirements.txt
+
 Obtain an API key from OpenAI and add it to the .env file in the project directory.
-•	OPENAI_API_KEY=your_secrit_api_key
-•	HUGGINGFACEHUB_API_TOKEN = your_secrit_api_key
+- OPENAI_API_KEY=your_secrit_api_key
+- HUGGINGFACEHUB_API_TOKEN = your_secrit_api_key
 
 
 **Usage:**
@@ -25,16 +26,16 @@ Obtain an API key from OpenAI and add it to the .env file in the project directo
 To use the Chat App, follow these steps:
 Ensure that you have installed the required dependencies and added the OpenAI API key to the .env file.
 Run the main.py file Execute the following command:
-•	streamlit run app.py
+- streamlit run app.py
 
 
 **Technology Used:**
 
-•	The embeddings will be stored and indexed using FAISS, enhancing retrieval speed.
-•	The FAISS index will be saved in a local file path in pickle format for future use.
-•	Also worked on Pinecone Vector Database
-•	Used Openai LLM model and hugging face hub for LLM 
-•	Used LangChain
+- The embeddings will be stored and indexed using FAISS, enhancing retrieval speed.
+- The FAISS index will be saved in a local file path in pickle format for future use.
+- Also worked on Pinecone Vector Database
+- Used Openai LLM model and hugging face hub for LLM 
+- Used LangChain
 
  
 
