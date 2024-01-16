@@ -36,6 +36,7 @@ Run the main.py file Execute the following command:
 - Also worked on Pinecone Vector Database
 - Used Openai LLM model and hugging face hub for LLM 
 - Used LangChain
+- Prompt Engineering
 
  
 
